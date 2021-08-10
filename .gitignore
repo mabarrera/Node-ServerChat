@@ -1,0 +1,5 @@
+node_modules/
+.env
+src/public/images/usuarios/**.*
+src/public/images/productos/**.*
+

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://www.ocean-grid.xyz/version/v1/1.10.01/css/all.css">
+    <meta name="google-signin-client_id" content="823930267034-u2hnspkcvt946ff3k9i73gpges6dg283.apps.googleusercontent.com">
+</head>
+<body>
+
+    <div class="container mrg-t-3">
+        <div class="row">
+            <div class="col-6">
+                <h2 class="text-center">Google sigin</h2>
+                <div class="g-signin2" data-onsuccess="onSignIn"></div>
+                <a href="#" onclick="signOut();">Sign out</a>
+            </div>
+            <div class="col-6">
+                <h1 class="text-center">Iniciar sesión</h1>
+                <form action="" class="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="correo" placeholder="Correo">
+                    </div>                        
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="password" placeholder="Contraseña">
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Iniciar sesion</button>                    
+                </form>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+
+    <script src="./js/auth.js"></script>
+
+</body>
+</html>

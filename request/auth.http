@@ -1,0 +1,10 @@
+@API = http://localhost:3000/api/auth
+
+### Login
+POST {{API}}/login
+Content-Type: application/json
+
+{
+    "correo": "test2@page.com",
+    "password": "123456"
+}
